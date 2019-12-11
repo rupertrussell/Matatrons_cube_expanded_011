@@ -1,5 +1,6 @@
 // Created with "Processing":https://processing.org/
 // This version highlights the inner 6 pointed star
+// Artwork on Redbubble at: https://www.redbubble.com/people/rupertrussell/works/35787453-metatron-s-cube-expanded-003
 
 // Metatron’s Cube Expanded 011
 // by Rupert Russell
@@ -264,7 +265,7 @@ void draw() {
   //println(" y Outer   1 =  " + yOuter[1] );
   //println(" y Nesting 3 = " + yTurningPoint[3] );
 
-  save("Matatrons-cube-expanded_011.png");
+  save("Matatrons-cube-expanded_011.pdf");
 
   // exit();
 }
