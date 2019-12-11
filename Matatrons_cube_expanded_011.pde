@@ -9,7 +9,7 @@
 // this version highlights the large 6 pointed star
 // MIT licence 
 
-int scale = 800;
+int scale = 80;
 float[] xInner = new float[6];
 float[] yInner = new float[6];
 
@@ -26,11 +26,11 @@ float[] xTurningPoint = new float[6];
 float[] yTurningPoint = new float[6];
 
 int count = 0;
-int sWeight = 20;
+int sWeight = 2;
 
 
 void setup() {
-  size(4625, 4625);
+  size(600, 600);
   background(0);
   stroke(255);
   noLoop();
@@ -266,5 +266,5 @@ void draw() {
 
   save("Matatrons-cube-expanded_011.png");
 
-   exit();
+  // exit();
 }
